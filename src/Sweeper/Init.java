@@ -6,7 +6,8 @@ import SimpleLogging.Logging.*;
 
 public class Init {
 	public static void main(String[] args) {
-Logging.setStartTime();		@SuppressWarnings("unused")
+		Logging.setStartTime();
+		@SuppressWarnings("unused")
 		Frame f = new Frame();
 		Logging.disableDebug();
 		Logging.buildLogMessage(new LoggingLevel("Init"), new ActionMessage("starting"));
